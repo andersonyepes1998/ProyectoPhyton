@@ -2,6 +2,8 @@ option = 1
 
 empanadas = []
 
+id=['001']
+nombre=['Empanada enigadeña']
 
 while option != 0:
     print('*****Empanadas******')
@@ -31,7 +33,7 @@ while option != 0:
             if empanada['id'] == recorrido:
                 print('Sin empanada')
             else:
-                print('empnada econtrada ',empanada)
+                print('empanada econtrada ',empanada)
     elif(option == 4):
          recorrido = int(input('Digite la empanda que vas a buscar: '))
          for empanada in empanadas:
