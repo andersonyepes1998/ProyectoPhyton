@@ -2,9 +2,6 @@ option = 1
 
 empanadas = []
 
-id=['001']
-nombre=['Empanada enigadeña']
-
 while option != 0:
     print('*****Empanadas******')
     print('Opcion 1= Ingrese una empanada: ')
